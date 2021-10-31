@@ -31,14 +31,14 @@ Para o desenvolvimento deste site utilizei as seguintes tecnologias:
 
 ---
 
-## 🦄 Autor<br>
+## Autor<br>
 <table>
   <tr>
     <td align="center">
-      <a href="https://github.com/iuricode">
-        <img src="https://avatars3.githubusercontent.com/u/31936044" width="100px;" alt="Foto do Iuri Silva no GitHub"/><br>
+      <a href="/">
+        <img src="https://avatars.githubusercontent.com/u/70007086?v=4" width="100px;" alt="Foto do Ednei Lopes no GitHub"/><br>
         <sub>
-          <b>Iuri Silva</b>
+          <b>Ednei Lopes</b>
         </sub>
       </a>
     </td>
