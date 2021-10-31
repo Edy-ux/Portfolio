@@ -73,6 +73,7 @@ sr.reveal(".titulo-delay", { delay: 200 });
 sr.reveal(".descricao-delay", { delay: 400 });
 sr.reveal(".cards-interval", { interval: 400 });
 
+
 const text = {
   html: "HTML é uma linguagem baseada em marcação, onde marcamos os elementos para definir quais informações a página vai exibir. <br><br> 1 ano de experiência",
   css: "CSS é uma linguagem de folha de estilo composta por “camadas”, criado com o propósito de estilizar as páginas HTML. <br><br> 1 ano de experiência",
@@ -82,7 +83,7 @@ const text = {
   next: "Next.js é uma estrutura da web que permite funcionalidades como renderização do lado do servidor e geração de sites estáticos para web baseados em React. <br><br> 4 meses de experiência"
 
 }
-//Refatorando codigo abaixo 
+//Refatorando codigo  
 const knowning = document.querySelectorAll('#cards-conhecimentos article')
 
 function changeArticleText() {
