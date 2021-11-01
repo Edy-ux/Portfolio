@@ -89,7 +89,6 @@ const knowning = document.querySelectorAll('#cards-conhecimentos article')
 function changeArticleText() {
   knowning.forEach(function(el){
     el.addEventListener("mouseover", function () {
-      //console.log("oi")
       (el.classList.contains('html')) ? text1.innerHTML = text.html 
       :(el.classList.contains('css')) ? text1.innerHTML = text.css 
       :(el.classList.contains('js'))  ? text1.innerHTML = text.js 
