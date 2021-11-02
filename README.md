@@ -1,10 +1,7 @@
 <h1 align="center">
-  📰<br>Meu Portfólio
+  📰<br>Portfólio
 </h1>
 
-<h4 align="center">
-  Portfólio criado com o intuito de mostrar meus projetos ao decorrer da minha carreira.
-</h4>
 
 ![Resultado final do projeto](assets/image/preview.png)
 
