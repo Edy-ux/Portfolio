@@ -4,16 +4,16 @@ class MobileNavbar {
     this.mobileMenu = document.querySelector(mobileMenu);
     this.navList = document.querySelector(navList);
     this.navLinks = document.querySelectorAll(navLinks);
+    console.log(navLinks)
     this.activeClass = "active";
     this.handleClick = this.handleClick.bind(this);
   }
 
   animateLinks() {
     this.navLinks.forEach((link, index) => {
-      link.style.animation
-        ? (link.style.animation = "")
-        : (link.style.animation = `navLinkFade 0.5s ease forwards ${index / 7 + 0.3
-          }s`);
+      link.style.animation ? link.style.animation = ""
+        : link.style.animation = `navLinkFade 0.5s ease forwards ${index / 7 + 0.3
+          }s`;
     });
   }
 
@@ -39,16 +39,19 @@ const mobileNavbar = new MobileNavbar(
   ".nav-list",
   ".nav-list li"
 );
+
 mobileNavbar.init();
 
 //Maquina de escrever
-function typeWrite(elemento) {
-  const textoArray = elemento.innerHTML.split("");
+const typeWrite = (elemento) =>{
+  const textoArray = elemento.innerText.split("");
+  console.log(textoArray)
   elemento.innerHTML = " ";
-  textoArray.forEach(function (letra, i) {
+  textoArray.forEach((letra, i) => {
     setTimeout(function () {
-      elemento.innerHTML += letra;
-    }, 100 * i);
+      elemento.innerHTML =  elemento.innerHTML + letra;
+   
+    }, 100  * i );
   });
 }
 const titulo = document.querySelector(".maquina-escrever");
